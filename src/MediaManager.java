@@ -4,6 +4,6 @@ import java.util.Arrays;
 
 public class MediaManager {
 
-    // Her kommer din kode
+    // Her kommer din kode.
 
 }

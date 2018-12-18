@@ -10,7 +10,7 @@ public class Media { //Klassens navn er Media
 
     private int assetId;
     private String name;
-    private Date created = new Date(); //Denne linje initialisere et dataobjekt.
+    private Date created = new Date(); //Denne linje initialisere et date objekt.
     private String fileName;
 
 

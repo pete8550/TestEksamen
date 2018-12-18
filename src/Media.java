@@ -2,18 +2,25 @@ import java.io.File;
 import java.time.Instant;
 import java.util.Date;
 
-public class Media {
+public class Media { //Klassens navn er Media
+
+    //4 private data fields bliver erklærede.
+    //3 forskellige datatyper: int, String og Date.
+    //4 variabel navne: assetId, name, created og fileName.
 
     private int assetId;
     private String name;
-    private Date created = new Date();
+    private Date created = new Date(); //Denne linje initialisere et dataobjekt.
     private String fileName;
 
 
+    //Dette er klassens constructor.
     public Media() {
         assetId = MediaID.generate();
         created = Date.from(Instant.now());
     }
+
+    //Dette er klassens metoder
 
     public int getAssetId() {
         return assetId;

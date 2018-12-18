@@ -3,69 +3,81 @@
   <ID>JAVA</ID>
   <OriginalElement>Main</OriginalElement>
   <nodes>
-    <node x="27.25" y="33.0">MediaID</node>
-    <node x="55.0" y="458.0">Test</node>
-    <node x="199.25" y="0.0">Video</node>
-    <node x="416.0" y="425.0">Picture</node>
-    <node x="656.0" y="0.0">MediaManager</node>
-    <node x="207.0" y="436.0">Article</node>
-    <node x="132.75" y="190.0">Media</node>
-    <node x="0.0" y="592.0">Main</node>
+    <node x="418.7611111111111" y="0.0">MediaID</node>
+    <node x="361.6722222222222" y="569.0">Test</node>
+    <node x="428.0" y="359.0">Video</node>
+    <node x="213.0" y="359.0">Picture</node>
+    <node x="713.5" y="0.0">MediaManager</node>
+    <node x="0.0" y="370.0">Article</node>
+    <node x="398.2611111111111" y="124.0">Media</node>
+    <node x="306.6722222222222" y="670.0">Main</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="Picture" target="Media">
-      <point x="0.0" y="-58.5" />
-      <point x="513.5" y="405.0" />
-      <point x="311.25" y="405.0" />
-      <point x="76.5" y="92.5" />
+    <edge source="Test" target="Article">
+      <point x="-57.75" y="-25.5" />
+      <point x="369.9222222222222" y="549.0" />
+      <point x="48.25" y="549.0" />
+      <point x="-48.25" y="59.0" />
     </edge>
     <edge source="Media" target="MediaID">
-      <point x="-68.0" y="-92.5" />
-      <point x="166.75" y="165.0" />
-      <point x="103.25" y="165.0" />
+      <point x="0.0" y="-92.5" />
       <point x="0.0" y="37.0" />
     </edge>
     <edge source="Test" target="Main">
       <point x="33.0" y="25.5" />
-      <point x="154.0" y="567.0" />
-      <point x="181.5" y="567.0" />
+      <point x="460.6722222222222" y="645.0" />
+      <point x="488.1722222222222" y="645.0" />
       <point x="60.5" y="-48.0" />
     </edge>
-    <edge source="Media" target="Video">
-      <point x="0.0" y="-92.5" />
-      <point x="234.75" y="165.0" />
-      <point x="250.25" y="165.0" />
-      <point x="-51.0" y="70.0" />
+    <edge source="Picture" target="Media">
+      <point x="0.0" y="-70.0" />
+      <point x="310.5" y="339.0" />
+      <point x="456.1611111111111" y="339.0" />
+      <point x="-38.60000000000002" y="92.5" />
     </edge>
-    <edge source="Article" target="Media">
-      <point x="0.0" y="-47.5" />
-      <point x="301.5" y="405.0" />
-      <point x="260.25" y="405.0" />
-      <point x="25.5" y="92.5" />
+    <edge source="Test" target="Picture">
+      <point x="-24.75" y="-25.5" />
+      <point x="402.9222222222222" y="529.0" />
+      <point x="261.75" y="529.0" />
+      <point x="-48.75" y="70.0" />
+    </edge>
+    <edge source="Test" target="Video">
+      <point x="8.25" y="-25.5" />
+      <point x="435.9222222222222" y="519.0" />
+      <point x="476.25" y="519.0" />
+      <point x="-48.25" y="70.0" />
     </edge>
     <edge source="Test" target="Media">
-      <point x="33.0" y="-25.5" />
-      <point x="154.0" y="405.0" />
-      <point x="209.25" y="405.0" />
-      <point x="-25.5" y="92.5" />
+      <point x="41.25" y="-25.5" />
+      <point x="468.9222222222222" y="539.0" />
+      <point x="631.5" y="539.0" />
+      <point x="631.5" y="339.0" />
+      <point x="533.3611111111111" y="339.0" />
+      <point x="38.59999999999991" y="92.5" />
+    </edge>
+    <edge source="Article" target="Media">
+      <point x="0.0" y="-59.0" />
+      <point x="96.5" y="329.0" />
+      <point x="417.5611111111111" y="329.0" />
+      <point x="-77.20000000000005" y="92.5" />
     </edge>
     <edge source="Video" target="Media">
-      <point x="51.000000000000036" y="70.0" />
-      <point x="352.25" y="165.0" />
-      <point x="302.75" y="165.0" />
-      <point x="68.0" y="-92.5" />
+      <point x="0.0" y="-70.0" />
+      <point x="524.5" y="339.0" />
+      <point x="494.7611111111111" y="339.0" />
+      <point x="0.0" y="92.5" />
     </edge>
     <edge source="Main" target="Test">
       <point x="-60.5" y="-48.0" />
-      <point x="60.5" y="567.0" />
-      <point x="88.0" y="567.0" />
+      <point x="367.1722222222222" y="645.0" />
+      <point x="394.6722222222222" y="645.0" />
       <point x="-33.0" y="25.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.5017541871137031" x="394.64026614017814" y="314.9268040071911" />
+  <settings layout="Hierarchic Group" zoom="0.5658967357570842" x="460.8181687072148" y="401.15061345097365" />
   <SelectedNodes>
-    <node>Media</node>
+    <node>Main</node>
   </SelectedNodes>
   <Categories>
     <Category>Fields</Category>

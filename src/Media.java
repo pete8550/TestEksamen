@@ -55,10 +55,13 @@ public class Media { //Klassens navn er Media
         this.fileName = fileName;
     }
 
+    public void logToConsole(){
+        System.out.println("Name: " + this.name);
+    }
+
     @Override
     public String toString() {
-        return "Media{" +
-                "assetId=" + assetId +
+        return "assetId=" + assetId +
                 ", name='" + name + '\'' +
                 ", created=" + created +
                 ", fileName='" + fileName + '\'' +

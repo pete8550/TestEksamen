@@ -6,4 +6,5 @@ public class Video extends Media {
     private Time videoLenght;
     private String videoSolution;
     private String videoAuthor;
-}
+
+    }
